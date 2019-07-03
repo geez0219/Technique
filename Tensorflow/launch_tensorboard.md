@@ -1,7 +1,7 @@
 
 # launch_tensorboard
 ## lauch tensorboard on remote 
-
+reference: https://stackoverflow.com/questions/37987839/how-can-i-run-tensorboard-on-a-remote-server
 on the remote machine
 - launch tensorboard
 ```
