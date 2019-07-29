@@ -9,6 +9,8 @@ in `~/.gitconfig`
 [includeIf "gitdir:<theGitPath>"]
   path = <theOtherGitConfig>
 ```
+Note: the <theGitPath> folder should closing with "/"
+
 
 in `<theOtherGitConfig>`
 ```
