@@ -14,5 +14,12 @@ on the local machine
 ssh -N -f -L localhost:<local_port/ex:8888>:localhost:<remote_port/ex:8876> <remote mahchine ssh name>
 ```
 
+- kill the port forwarding 
+```
+ps aux | grep ssh 
+kill -9 <Process_ID>
+```
+
+
 
 
