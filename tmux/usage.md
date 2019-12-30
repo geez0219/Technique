@@ -1,20 +1,72 @@
-## get into tmux session
+## prefix
+the tmux has a hot key that recurrently being used. It is default Ctrl + B.
+In the following session prefix == Ctrl + B
+
+
+## session
+
+### get into tmux session
 ```
-tmux
+tmux 
+```
+### create a tmux session with specific name
+```
+tmux new -s <session_name>
 ```
 
-## leave tmux session
+### leave tmux session (but the session is still running) 
 ```
-(Ctrl+B) + D
+prefix + D
 ```
 
-## show all tmux session
+### attach back to tmux session
+```
+tmux attach -t <session_name>
+```
+
+### show all tmux session 
 ```
 tmux ls
 ```
 
-## attach back to tmux session
+### exit the tmux session (the session will be ended)
 ```
-tmux a
+exit
 ```
+
+## window
+### create a new window in same session
+```
+prefix + c 
+```
+
+### switch to different window
+```
+prefix + <window_index>
+```
+
+### rename the window
+```
+prefix + ,
+```
+
+### exit the window
+```
+exit
+```
+
+## split 
+### split the terminal horizontally
+```
+prefix + %
+```
+
+### split the terminal vertically
+```
+prefix + "
+```
+
+```
+
+
 
