@@ -1,3 +1,6 @@
+## install jupyter notebook
+``` pip install notebook ```
+
 ## run jupyter notebook without browser
 1. luanch jupyter notebook with command `jupyter notebook --no-browser`
 2. map the remote localhost port to the local(the machine has browser) localhost using code
