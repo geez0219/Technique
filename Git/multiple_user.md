@@ -1,4 +1,5 @@
 ## using different user in specific folder
+### this feature only there for new git version > 2.17.1
 
 in `~/.gitconfig`
 ```
