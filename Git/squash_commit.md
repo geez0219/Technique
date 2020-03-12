@@ -2,7 +2,7 @@
 To squash the commit from <start> to <end>
 
 ### Step 1.
-``` git rebase -i <the_commit_one_before_start>
+``` git rebase -i <the_commit_one_before_start> ```
 
 ### Step 2
 Git will automatically lead you to GNU nano page, you will see something like: <br>
