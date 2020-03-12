@@ -1,5 +1,5 @@
 ## Squash commit 
-To squash the commit from <start> to <end>
+To squash the commit from <commit_start> to <commit_end>
 
 ### Step 1.
 ``` git rebase -i <the_commit_one_before_start> ```
