@@ -2,7 +2,7 @@
 All related computation need to happen under tf.GradientTape() to be able to compute the gradient.
 
 ``` python 
-x = tf.Variable(10, dtype=tf.float32) 
+x = tf.Variable(10, dtype=tf.float32) # variable definition doesn't need to be inside GradientTape
 with tf.GradientTape() as tape:
     y = x * x
 grad = tape.gradient(y, x)
