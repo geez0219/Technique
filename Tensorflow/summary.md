@@ -28,8 +28,8 @@ tf.summary.scalar('loss', 0.7, step=45)
 ```
 is different from...
 ``` python 
-tf.summary.scalar('loss', 0.1, step=45) 
+tf.summary.scalar('loss', 0.7, step=45)
+tf.summary.scalar('loss', 0.1, step=42) 
 tf.summary.scalar('loss', 0.2, step=43)
-tf.summary.scalar('loss', 0.3, step=42)
-tf.summary.scalar('loss', 0.7, step=44)
+tf.summary.scalar('loss', 0.3, step=44)
 ```
