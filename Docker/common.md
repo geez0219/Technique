@@ -41,3 +41,7 @@ docker exec -it <container_name> bash
 [docker/nvidia-docker] run -it --name <container_name> -v <source_dir>:/<target_dir> <image_name> bash
 ```
 
+## remove dangling images
+```
+docker system prune
+```
