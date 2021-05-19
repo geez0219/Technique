@@ -8,6 +8,9 @@ docker images
 docker pull <repo>/<image>:<tag>
 ```
 
+## build an image from dockerfile
+docker build -t <repo>/<name>:<tag> - < <path_of_dockerfile> [--no-cache] 
+
 ## show all container including exit one
 ```
 docker container ls -a
