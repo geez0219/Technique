@@ -12,3 +12,8 @@ conda env remove -n <env_name>
 ```
 conda create -n <new_env_name> --clone <old_env_name>
 ```
+
+## list all environment
+```
+conda info --envs
+```
