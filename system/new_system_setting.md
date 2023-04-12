@@ -5,7 +5,7 @@
 * ref: https://www.youtube.com/watch?v=g_WUusDluLw
 
 
-1. create a remap file ~/.xmodmap
+1. Create a remap file ~/.xmodmap
 
 ```
 keycode 64 = Mode_switch
@@ -15,6 +15,9 @@ keysym i = i I Up
 keysym k = k K Down
 ```
 
-2. >>> xmodmap ~/.xmodmap
+2. Run following command
 
+```bash
+xmodmap ~/.xmodmap
+```
 3. Go to ubuntu and search `Starup Application` and set `/usr/bin/xmodmap <path_to_.xmodmap>`
